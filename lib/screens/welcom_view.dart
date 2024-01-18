@@ -11,7 +11,10 @@ class _WelcomViewState extends State<WelcomView> {
   Widget build(BuildContext context){
     return Scaffold(
       body:Container(
-
+        decoration:BoxDecoration(
+          image:DecorationImage(
+            image:AssetImage("assets/images/image2.png"),
+          )),
       ),
     );
   }
