@@ -194,5 +194,4 @@ class _WelcomViewState extends State<WelcomView> {
     );
   }
 
-  HomeView() {}
 }
